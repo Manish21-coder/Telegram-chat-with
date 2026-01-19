@@ -1,6 +1,6 @@
 from telethon import TelegramClient, events, Button
 import pandas as pd
-from download_from_gdrive import *
+# from download_from_gdrive import *
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime
 import asyncio
@@ -12,7 +12,7 @@ BOT_TOKEN = "7633409724:AxAHTqXO9cbRyH3g_018Bb_YmYcwKQvygqOY"
 
 bot = TelegramClient("VedantuBot", API_ID, API_HASH)
 scheduler = AsyncIOScheduler()
-gdrive_service = get_drive_service()
+# gdrive_service = get_drive_service()
 
 
 # Start command
